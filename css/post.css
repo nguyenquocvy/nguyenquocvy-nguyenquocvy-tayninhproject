@@ -1,0 +1,69 @@
+/*-----------------------phan menu--------------------*/
+menu{
+    width: 100%;
+
+}
+menu nav{
+    width: 96%;
+}
+menu nav div ul li {
+    font-weight: bold;
+}
+.a:hover{
+    color:gainsboro;
+    
+}
+.menucolor{
+color:grey;
+}
+/*-----------------------banner--------------------*/
+
+/*-----------------------main--------------------*/
+main {
+    background-color:black;
+    height: auto  ;
+
+}
+.topmain{
+    margin-top: 2%;
+
+}
+.img{
+    width: 100%;
+}
+.fonttieude{
+    font-family: 'Dancing Script', cursive;
+    font-size: 150%;
+    text-align: center;
+    color:white;
+}
+.fontgg{
+    font-family: 'Dancing Script', cursive;
+    text-align: justify;
+    font-size: 110%;
+    color:white;
+}
+/*-----------------------footer--------------------*/
+footer{
+    width: 91%;
+    height: auto;
+    margin-left: 5%;
+}
+footer div div a{
+    color:rgb(0, 183, 255);
+}
+footer div div a:link , a:hover{
+    text-decoration: none;
+    color:gainsboro;
+}
+.topfooter{
+    margin-top: 2%;
+}
+@media only screen and (max-width: 768px) {
+    footer{
+        width: 91%;
+        height: auto;
+        margin-left: 20%;
+        font-size: 70%;
+    }
+}
