@@ -14,19 +14,15 @@ menu nav div ul li {
     
 }
 .menucolor{
-color:grey;
+    color:grey;
 }
-/*-----------------------banner--------------------*/
-
 /*-----------------------main--------------------*/
 main {
     background-color:black;
     height: auto  ;
-
 }
 .topmain{
     margin-top: 2%;
-
 }
 .img{
     width: 100%;
@@ -45,9 +41,9 @@ main {
 }
 /*-----------------------footer--------------------*/
 footer{
-    width: 91%;
+    width: 70%;
     height: auto;
-    margin-left: 5%;
+    margin: 0 auto;
 }
 footer div div a{
     color:rgb(0, 183, 255);
@@ -58,12 +54,18 @@ footer div div a:link , a:hover{
 }
 .topfooter{
     margin-top: 2%;
+    border: 0px solid rgb(0, 0, 0);
 }
 @media only screen and (max-width: 768px) {
     footer{
-        width: 91%;
+        width: 70%;
         height: auto;
-        margin-left: 20%;
+        margin: 0 auto;
         font-size: 70%;
+    }
+    .topfooter{
+        margin-top: 2%;
+        border: 1px solid rgb(0, 0, 0);
+        text-align: center;
     }
 }
