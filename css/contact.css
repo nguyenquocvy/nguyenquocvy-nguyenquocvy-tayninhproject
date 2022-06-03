@@ -38,17 +38,26 @@ footer{
     height: auto;
     margin: 0 auto;
 }
+
 footer div div a{
     color:rgb(0, 183, 255);
 }
+
 footer div div a:link , a:hover{
-    text-decoration: none;
     color:gainsboro;
 }
+
 .topfooter{
     margin-top: 2%;
     border: 0px solid rgb(0, 0, 0);
 }
+
+.fontfooter{
+    font-family: 'Dancing Script', cursive;;
+    color:darkblue;
+    font-size: 120%;
+}
+
 @media only screen and (max-width: 768px) {
     footer{
         width: 70%;
